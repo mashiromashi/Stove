@@ -1,0 +1,58 @@
+#login {
+  width: 100%;
+  height: 100%;
+  background: #e9e9ef;
+  color: #e9e9ef;
+}
+
+.error-txt {
+  color: red;
+}
+
+input[type=text],
+input[type=password] {
+  width: 100%;
+  height: 40px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid gray;
+  box-sizing: border-box;
+}
+
+#loginbutton {
+  background-color: #203a43;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* 
+.grid-container {
+  padding: 16px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-item1{
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 35px;
+    margin: 10px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for sssspan and cancel button on extra small screens */
+/* @media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+} */

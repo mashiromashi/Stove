@@ -1,0 +1,25 @@
+module.exports=(sequelize,Sequelize)=>{
+    return stove_region=sequelize.define('stove_region',{
+        id:{
+            type:Sequelize.INTEGER,
+            autoIncrement:true,
+            primaryKey:true
+        },
+        name:{
+            type:Sequelize.STRING
+        },
+        status:{
+            type:Sequelize.STRING
+        },
+        createdby:{
+            type:Sequelize.INTEGER
+        },
+        modifiedby:{
+            type:Sequelize.INTEGER
+        },
+    },
+    {
+        freezeTableName:true,
+        tableName:'stove_region'
+    })
+}

@@ -1,0 +1,48 @@
+{
+  "name": "my-prj",
+  "version": "2.1.0",
+  "private": true,
+  "dependencies": {
+    "auth0-js": "^9.10.2",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
+    "cleave.js": "^1.5.0",
+    "file-saver": "^2.0.2",
+    "moment": "^2.24.0",
+    "myanmar-phonenumber": "^0.3.0",
+    "react": "^16.8.6",
+    "react-csv": "^1.1.1",
+    "react-data-components": "^1.2.0",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.0.3",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "3.0.1",
+    "react-select": "^3.0.4",
+    "reactstrap": "^8.0.0",
+    "redux": "^4.0.1",
+    "styled-components": "^4.2.0",
+    "xlsx": "^0.14.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
